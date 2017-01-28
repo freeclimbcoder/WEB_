@@ -1,0 +1,81 @@
+body{
+	width: 940px;
+	height: 100%;	
+	padding: 0px;
+	font-family: sans-serif;
+}
+html{
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+}
+h1,h2{
+	margin: 0px;
+	text-align: center;
+}
+a {
+	text-decoration: none;
+    color: #000;
+}
+.header{
+	margin-top: 0;
+	width:inherit;
+	height: 100px;
+	background-color: #33CC00;
+	border-radius: 0 0 10px 10px;
+}
+.header h1{
+	text-align: center;
+        margin-top: -8px;
+}
+.lang_sel{
+	border-radius:0 0 0 10px; 
+	padding: 5px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	width: auto;
+	background-color: #cba;
+	float: right;
+}
+.lang_sel ul{
+	margin: 0px;
+	padding: 0;
+	list-style-type: none;	
+}
+.lang_sel li{
+	display: inline;      
+}.lang_sel a{
+	cursor: pointer;      
+}
+.lang_sel ul li .checked{
+	font-weight: bold;	
+	color: #fff;
+}
+
+.menu{
+	background-color: #33dd00;
+	width: inherit;	
+	height: 30px;
+	line-height: 30px;
+}
+.menu ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.menu li{
+	padding-right: 40px;
+	padding-left: 40px;
+	display: inline;
+	border-right: solid;
+}
+.logout{
+    cursor: pointer;
+}
+.menu li:last-child{
+	border-right: none;
+}
+.menu .active_tab a{
+    font-weight: bold;
+    color: #fff;
+}

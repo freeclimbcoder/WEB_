@@ -1,0 +1,10 @@
+#comments{
+    width: inherit;
+    border: dashed 2px;
+}
+.comment{
+    border-bottom: solid 1px;
+}
+.comment_text{
+  
+}

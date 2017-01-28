@@ -1,0 +1,26 @@
+
+.pickup{
+	height: 400px;
+}
+.radio{
+	margin-top: 20px;
+}
+.map{
+	width: 600px;
+	height:400px;
+	background-color: #cea;
+	float: left;
+	display: inline-block;
+
+}
+.shop_list{
+	float:left;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;	
+}
+.shop_list li {
+	margin: 20px;
+	margin-left: 50px;
+
+}

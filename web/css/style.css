@@ -1,0 +1,90 @@
+
+.content{
+	width: inherit;
+	height: auto;
+	background-color: #fff;
+}
+.lay_horisontal{
+	width: inherit;
+	height: 500px;
+}
+.photo_cont{
+	margin-left: 20px;
+	width: 480px;
+	height: auto;
+	float: left;
+}
+.photo_cont img{
+	width: inherit;
+}
+.lay_vertical{
+	float: left;
+	text-align: center;
+	width: 400px;
+	height: inherit;
+	margin-left:30px;
+
+}
+.price{
+
+	background-color: #33dd00;
+	border-radius: 10px;
+	font-size: 20px;
+	line-height: 100px;
+	text-align: center;
+	width: 200px;
+	height: 100px;
+	margin:auto;
+	margin-top:100px;
+}
+.buy_button{
+	line-height: 70px;
+	margin:auto;
+	font-size: 35px;
+	border-radius: 10px;
+	width: 200px;
+	height: 70px;
+	background-color: #f88;
+	margin-top: 30px;
+        cursor: pointer;
+}
+.info{
+	margin-top: 30px;
+	width: inherit;
+	height: auto;
+	min-height: 200px;
+	background-color: #33cc00;
+	border-radius: 10px 10px 0 0 ;
+}
+.info ul{
+		border-radius: 10px;
+	background-color: #33dd00;
+	line-height: 30px;
+	height: 30px;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;	
+
+}
+.info ul li{
+	border-right: solid;
+	padding-left: 30px;
+	padding-right: 30px;
+	display: inline;
+}
+.info ul li .checked{
+	font-weight: bold;	
+	color: #fff;
+}
+.info ul li:last-child{
+	border-right: none;
+}
+
+.info div{
+	background-color: #eee;
+	height:auto;
+	min-height: 100px;
+	margin: 0px 5px 20px 5px;
+	border-radius: 5px;
+	padding: 10px;
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO">
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%C %d{HH:mm:ss}  %-5level  - %msg%n" />
+        </Console>
+        <File name="File" fileName="log/shop.log" immediateFlush="true" append="false">
+            <PatternLayout pattern="%C %d{yyy-MM-dd HH:mm:ss}  %-5level - %msg%n"/>
+        </File>
+        <File name="ErrorFile" fileName="log/Error.log" immediateFlush="true" append="false">
+            <PatternLayout pattern="%C %d{yyy-MM-dd HH:mm:ss}  %-5level - %msg%n"/>
+        </File>
+    </Appenders>
+    
+    <Loggers>
+       
+        <Root name="filters.LogFilter" level="ERROR">
+            <AppenderRef ref="ErrorFile" level="ERROR"/>
+        </Root>
+        
+        
+        <Logger name="newLogger" level="DEBUG">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="File"/>
+        </Logger>
+    </Loggers>
+</Configuration>
